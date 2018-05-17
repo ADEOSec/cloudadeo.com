@@ -3465,9 +3465,15 @@ figure.faqimg {
     } 
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 360px) { 
     #services .col-md-4 .row .servicetext {
-        height: 243px;
+        height: 550px;
+    } 
+}
+
+@media (max-width: 767px) and (min-width: 360px) { 
+    #services .col-md-4 .row .servicetext {
+        height: 445px;
     } 
 }
 
