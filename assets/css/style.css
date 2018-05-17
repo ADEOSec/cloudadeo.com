@@ -3467,6 +3467,17 @@ figure.faqimg {
 
 @media (max-width: 768px) { 
     #services .col-md-4 .row .servicetext {
-        height: 346px;
+        height: 243px;
     } 
+}
+
+
+#pricing .col-md-3 .pricing-detail {
+    height: 460px;
+}
+
+@media (max-width: 980px) {
+    #pricing .col-md-3 .pricing-detail {
+        height: 330px;
+    }
 }
