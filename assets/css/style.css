@@ -3415,6 +3415,10 @@ figure.faqimg {
     background-color: #f2f2f2;
 }
 
+.footer-list p {
+    font-size: 16px;
+}
+
 .footer-list a {
     display: inline-block;
     padding-right: 15px;
@@ -3423,6 +3427,10 @@ figure.faqimg {
 
 .footer-list a:last-child {
     padding-right: 0;
+}
+
+.footer-list a:hover {
+    color: #4b6ea8;
 }
 
 .footer-list a:hover i.fa-facebook {
@@ -3435,4 +3443,30 @@ figure.faqimg {
 
 .footer-list a:hover i.fa-instagram {
     color: #d82950;
+}
+
+.pr-0 {
+    padding-right: 0 !important;
+}
+
+#services .col-md-4 .row .servicetext {
+    height: 298px;
+}
+
+@media (max-width: 1240px) and (min-width: 980px) {
+    #services .col-md-4 .row .servicetext {
+        height: 450px;
+    }
+}
+
+@media (max-width: 980px) and (min-width: 768px) { 
+    #services .col-md-4 .row .servicetext {
+        height: 213px;
+    } 
+}
+
+@media (max-width: 768px) { 
+    #services .col-md-4 .row .servicetext {
+        height: 346px;
+    } 
 }
